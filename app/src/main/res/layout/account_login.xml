@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFF4780B"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Material Design Login Fo..."
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            android:textSize="23dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#84b1cf"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Login"
+            android:textColor="#fff"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="341dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="35dp"
+            app:cardBackgroundColor="#59599c"
+            android:layout_marginLeft="22dp"
+            android:layout_weight="0.55">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:drawableLeft="@drawable/user"
+                android:layout_marginTop="40dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:inputType="textPassword"
+                android:text="password"
+                android:drawableLeft="@drawable/password"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="160dp"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Sign in"
+                android:textColor="#fff"
+                android:background="#e4b509"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="220dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ViralAndroid.Com"
+                android:layout_marginTop="290dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="160dp"
+                android:textColor="#000"
+                android:id="@+id/textView12" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

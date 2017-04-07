@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#f1ce22">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FRIENDS"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHATS"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GROUPS"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:textColor="#fff"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/old"
+            android:background="@drawable/shaperound"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anderson Thomas"
+            android:textSize="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#c22b2b"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.appstek8.menu.RoundedImageView
+            android:id="@+id/profile_pic1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/old"
+            android:background="@drawable/edit_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admas Green"
+            android:textSize="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#138eec"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#9216ea"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.appstek8.menu.RoundedImageView
+            android:id="@+id/profile_pic2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/old"
+            android:background="@drawable/edit_text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laura Michelle"
+            android:textSize="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#24fa44"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#460e09"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.appstek8.menu.RoundedImageView
+            android:id="@+id/profile_pic3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/old"
+            android:background="@drawable/edit_text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laura Michelle"
+            android:textSize="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#d737df"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#23f4e2"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
+
+
+

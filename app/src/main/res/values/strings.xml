@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Card_view</string>
+    <string name="enter"><font fgcolor='#2374d6'>Enterprise</font></string>
+    <string-array name="mahendra">
+        <item>mahi</item>
+        <item>mahi1</item>
+        <item>mahi2</item>
+        <item>mahi3</item>
+        <item>mahi4</item>
+        <item>mahi5</item>
+        <item>mahi6</item>
+    </string-array>
+    <string-array name="vengal">
+        <item>abc</item>
+        <item>def</item>
+        <item>ghi</item>
+        <item>jkl</item>
+    </string-array>
+</resources>
